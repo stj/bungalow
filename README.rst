@@ -1,15 +1,21 @@
-Install the application
+Install
+=======
 
-`pip3.7 install djangorestframework django`
+``pip3.7 install djangorestframework django``
 
-Create a database for the service
+Create database
+===============
 
-`python manage.py migrate`
+``python manage.py migrate``
 
-To import data from a CSV file run
+Import data
+===========
 
-`python manage.py import *.csv`
+Load data from a CSV file.
 
-To run the application
+``python manage.py import *.csv``
 
-`python manage.py runserver`
+Run webserver
+=============
+
+``python manage.py runserver``
